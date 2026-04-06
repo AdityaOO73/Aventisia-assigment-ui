@@ -1,0 +1,35 @@
+export const UI_TEXT = {
+  appName: "Workspace",
+  workspace: "Workspace 1",
+  search: "Search...",
+  knowledgeBase: "Knowledge Base",
+  create: "Create New",
+  createdOn: "Created On",
+  createKnowledgeBase: "Create New Knowledge Base",
+  nameRequired: "Name is required",
+  cancel: "Cancel",
+  myProjects: "My Projects",
+  orchestrator: "Orchestrator",
+  admin: "Admin",
+  keyStore: "Key Store",
+  name: "Name",
+  description: "Description",
+  vectorStore: "Vector Store",
+  embeddingModel: "LLM Embedding Model",
+  rowsPerPage: "Rows per page",
+  pageInfo: "page 1 of 1",
+};
+
+export const SIDEBAR = {
+  projects: ["Agents", "AI Models", "Library"],
+  orchestrator: [
+    "Published",
+    "Machines",
+    "Queues",
+    "Triggers",
+    "Jobs",
+    "Executions",
+    "Vault",
+  ],
+  admin: ["Tenant", "Integrations"],
+};
