@@ -25,14 +25,14 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 sm:items-center w-full sm:w-auto">
           <SearchInput
             placeholder={UI_TEXT.search}
-            width="w-full sm:w-60 md:w-72 lg:w-120"
+            width="w-full sm:w-60 md:w-72 lg:w-90"
             height="h-10"
             className="bg-white rounded-xl shadow-md"
             iconColor="text-black/70"
             inputClass="bg-transparent text-gray-700 placeholder-gray-400"
           />
 
-          <Button onClick={() => setOpen(true)} fullWidth>
+          <Button onClick={() => setOpen(true)} halfWidth>
             + {UI_TEXT.create}
           </Button>
         </div>
