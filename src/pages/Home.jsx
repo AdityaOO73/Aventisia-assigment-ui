@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 sm:items-center w-full sm:w-auto">
           <SearchInput
             placeholder={UI_TEXT.search}
-            width="w-full sm:w-60"
+            width="w-full sm:w-60 md:w-72 lg:w-120"
             height="h-10"
             className="bg-white rounded-xl shadow-md"
             iconColor="text-black/70"
