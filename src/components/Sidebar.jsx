@@ -16,7 +16,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <div className="md:w-64 sm:w-56 w-full bg-white px-3 sm:px-4 py-4 sm:py-5 text-xs sm:text-sm flex flex-col justify-between h-full overflow-y-auto border-r border-gray-200">
+    <div className="md:w-64 sm:w-56 w-full bg-white px-3 sm:px-4 py-4 sm:py-5 text-xs sm:text-sm flex flex-col justify-between h-full overflow-y-auto no-scrollbar border-r border-gray-200">
       <div>
         <Section
           title={UI_TEXT.myProjects}
